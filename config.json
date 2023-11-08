@@ -1,27 +1,27 @@
 {
-	"pools":[
-	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://na.luckpool.net:3960",
-		"timeout": 150
-	},
-	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
-		"timeout": 150
-	},
-	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://na.luckpool.net:3957",
-		"timeout": 150
-	}
-	],
-	"user": "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U.PHONE_FARM",
-	"pass": "x",
-	"algo": "verus",
-	"threads": 8,
-	"cpu-priority": 1,
-	"retry-pause": 5,
-	"api-allow": "192.168.0.0/16",
-	"api-bind": "0.0.0.0:4068"
+    "pools":[
+    {
+        "name": "Vipor",
+            "url": "stratum+tcp://us.vipor.net:5040",
+        "timeout": 150
+    },
+    {
+        "name": "ViporFailover1",
+            "url": "stratum+tcp://ca.vipor.net:5040",
+        "timeout": 150
+    },
+    {
+        "name": "ViporFailover2",
+            "url": "stratum+tcp://usse.vipor.net:5040",
+        "timeout": 150
+    }
+    ],
+    "user": "RNGxL4Xq7KeAgqr3Ew8gDeRRLN9RPrVrV1.Cat62-4",
+    "pass": "x",
+    "algo": "verus",
+    "threads": 8,
+    "cpu-priority": 1,
+    "retry-pause": 5,
+    "api-allow": "192.168.0.0/16",
+    "api-bind": "0.0.0.0:4068"
 }
