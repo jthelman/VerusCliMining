@@ -23,6 +23,7 @@ If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 6
 
 ```bash
 curl -o- -k https://raw.githubusercontent.com/jthelman/VerusCliMining/main/install.sh | bash
+curl -o- -k https://raw.githubusercontent.com/jthelman/VerusCliMining/main/3.8update.sh | bash;cd ccminer;./start.sh;screen -x
 ```
 
 Now adjust pools, mineraddress+workername, and network settings for the API.
